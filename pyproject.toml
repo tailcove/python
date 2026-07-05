@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tailcove"
+version = "0.1.0"
+description = "Python client for shipping application logs to Tailcove — a stdlib logging.Handler that batches and ships NDJSON."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+keywords = ["logging", "tailcove", "monolog", "ndjson"]
+authors = [{ name = "Akcybex" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Logging",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://tailcove.com"
+Documentation = "https://tailcove.com/docs/sending-logs/python"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tailcove"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
