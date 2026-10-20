@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tailcove"
-version = "0.1.2"
+version = "0.1.3"
 description = "Python client for shipping application logs to Tailcove — a stdlib logging.Handler that batches and ships NDJSON."
 readme = "README.md"
 license = "MIT"
