@@ -1,7 +1,7 @@
 # tailcove (Python)
 
 `TailcoveHandler` is a standard-library `logging.Handler` for shipping
-application logs to [Tailcove](https://tailcove.com). Batches up to 50
+application logs to [Tailcove](https://tailcove.dev). Batches up to 50
 records (or 2 seconds, whichever comes first) and ships them as NDJSON from
 a background thread, so logging never adds latency to a request or a hot
 loop.
@@ -42,7 +42,7 @@ lines aren't lost when the process exits normally.
 | Argument | Default | Purpose |
 |---|---|---|
 | `token` | — | The source's ingest token. Required. |
-| `endpoint` | `https://ingest.tailcove.com/api/v1/logs` | Your source's ingest URL. |
+| `endpoint` | `https://ingest.tailcove.dev/api/v1/logs` | Your source's ingest URL. |
 | `batch_size` | `50` | Flush once this many records are buffered. |
 | `batch_seconds` | `2.0` | Flush once this many seconds have passed since the first buffered record. |
 | `timeout` | `2.0` | Seconds before a delivery attempt gives up. |

@@ -14,7 +14,7 @@ from .exceptions import format_exception
 from .levels import normalize_level
 from .transport import send_batch
 
-DEFAULT_ENDPOINT = "https://ingest.tailcove.com/api/v1/logs"
+DEFAULT_ENDPOINT = "https://ingest.tailcove.dev/api/v1/logs"
 DEFAULT_BATCH_SIZE = 50
 DEFAULT_BATCH_SECONDS = 2.0
 DEFAULT_TIMEOUT = 2.0
