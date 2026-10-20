@@ -8,13 +8,13 @@ version = "0.1.0"
 description = "Python client for shipping application logs to Tailcove — a stdlib logging.Handler that batches and ships NDJSON."
 readme = "README.md"
 license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.9"
 keywords = ["logging", "tailcove", "monolog", "ndjson"]
 authors = [{ name = "Akcybex", email = "developers@akcybex.com" }]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
