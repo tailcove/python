@@ -5,30 +5,26 @@
 </picture>
 
 <p align="center">
-  <a href="https://tailcove.dev/docs/sending-logs/python"><img alt="Documentation" src="https://img.shields.io/badge/Documentation-2DD4BF?style=for-the-badge&logoColor=0A0A0A"></a>
-  <a href="https://app.tailcove.dev/register"><img alt="Get started free" src="https://img.shields.io/badge/Get%20started%20free-0A0A0A?style=for-the-badge"></a>
-  <a href="https://github.com/tailcove/python/issues/new/choose"><img alt="Report a bug" src="https://img.shields.io/badge/Report%20a%20bug-0A0A0A?style=for-the-badge"></a>
+  <a href="https://tailcove.dev/docs/sending-logs/python"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-docs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-docs-light.svg"><img alt="Documentation" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-docs-dark.svg" height="44"></picture></a>
+  &nbsp;
+  <a href="https://app.tailcove.dev/register"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-start-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-start-light.svg"><img alt="Get started free" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-start-dark.svg" height="44"></picture></a>
+  &nbsp;
+  <a href="https://github.com/tailcove/python/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-bug-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-bug-light.svg"><img alt="Report a bug" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/btn-bug-dark.svg" height="44"></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/tailcove/"><img alt="PyPI version" src="https://img.shields.io/pypi/v/tailcove?color=2DD4BF&labelColor=0A0A0A"></a>
-  <a href="https://pypi.org/project/tailcove/"><img alt="Python versions" src="https://img.shields.io/pypi/pyversions/tailcove?color=2DD4BF&labelColor=0A0A0A"></a>
-  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-2DD4BF?labelColor=0A0A0A"></a>
+  <a href="https://pypi.org/project/tailcove/"><img alt="PyPI version" src="https://img.shields.io/pypi/v/tailcove?color=2DD4BF&labelColor=0A0A0A&style=flat-square"></a>
+  <a href="https://pypi.org/project/tailcove/"><img alt="Python versions" src="https://img.shields.io/pypi/pyversions/tailcove?color=2DD4BF&labelColor=0A0A0A&style=flat-square"></a>
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-2DD4BF?labelColor=0A0A0A&style=flat-square"></a>
 </p>
 
-<br>
-
 <h3 align="center">Send Python logs to Tailcove with the standard logging module.</h3>
-
-<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/features-python-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/features-python-light.svg">
   <img alt="tailcove features" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/features-python-dark.svg" width="100%">
 </picture>
-
-<br>
 
 ## Install
 
