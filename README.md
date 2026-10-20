@@ -16,9 +16,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/meta-python-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/meta-python-light.svg">
-    <img alt="tailcove facts" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/meta-python-dark.svg" height="34">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/stats-python-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/stats-python-light.svg">
+    <img alt="tailcove at a glance" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/stats-python-dark.svg">
   </picture>
 </p>
 
