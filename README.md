@@ -13,7 +13,6 @@
 <p align="center">
   <a href="https://pypi.org/project/tailcove/"><img alt="PyPI version" src="https://img.shields.io/pypi/v/tailcove?color=2DD4BF&labelColor=0A0A0A"></a>
   <a href="https://pypi.org/project/tailcove/"><img alt="Python versions" src="https://img.shields.io/pypi/pyversions/tailcove?color=2DD4BF&labelColor=0A0A0A"></a>
-  <a href="https://pypi.org/project/tailcove/"><img alt="PyPI downloads" src="https://img.shields.io/pypi/dm/tailcove?color=2DD4BF&labelColor=0A0A0A"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-2DD4BF?labelColor=0A0A0A"></a>
 </p>
 
@@ -23,36 +22,11 @@
 
 <br>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>🐍 &nbsp;Plain <code>logging</code></h4>
-      <code>TailcoveHandler</code> is a normal <code>logging.Handler</code>. Keep the loggers you have.
-    </td>
-    <td width="33%" valign="top">
-      <h4>🧵 &nbsp;Never blocks</h4>
-      Records are batched and sent from a background thread, so nothing waits on the network.
-    </td>
-    <td width="33%" valign="top">
-      <h4>📦 &nbsp;No dependencies</h4>
-      Delivery uses <code>urllib</code> from the standard library.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>🛡️ &nbsp;Safe</h4>
-      A failed delivery is caught and never raised into your code.
-    </td>
-    <td width="33%" valign="top">
-      <h4>🧩 &nbsp;Structured exceptions</h4>
-      Class, message, location and trace arrive as data, so identical errors group together.
-    </td>
-    <td width="33%" valign="top">
-      <h4>🌐 &nbsp;Django &amp; Flask</h4>
-      Copy-paste setup for both, below.
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/features-python-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/features-python-light.svg">
+  <img alt="tailcove features" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/features-python-dark.svg" width="100%">
+</picture>
 
 <br>
 
@@ -194,16 +168,21 @@ Network errors and non-2xx responses never raise into your code. `emit()` follow
 - **Bugs and feature requests:** [open an issue](https://github.com/tailcove/python/issues/new/choose)
 - **Security problems:** please email **security@tailcove.dev** instead of opening a public issue.
 
-## Other Tailcove libraries
-
-[Laravel](https://github.com/tailcove/laravel) · [Node.js](https://github.com/tailcove/node) · [Browser](https://github.com/tailcove/browser)
-
-## License
-
-[MIT](LICENSE) © AKCybex
-
 <br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/footer-light.svg">
+  <img alt="Tailcove. Built by AKCybex." src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/footer-dark.svg" width="100%">
+</picture>
+
 <p align="center">
-  <sub>Built by <a href="https://akcybex.com">AKCybex</a> &nbsp;·&nbsp; <a href="https://tailcove.dev">tailcove.dev</a></sub>
+  <a href="https://tailcove.dev/docs/sending-logs/python">Documentation</a> &nbsp;·&nbsp;
+  <a href="https://app.tailcove.dev/register">Get started free</a> &nbsp;·&nbsp;
+  <a href="https://github.com/tailcove/python/issues/new/choose">Report a bug</a> &nbsp;·&nbsp;
+  <a href="LICENSE">MIT License</a>
+</p>
+
+<p align="center">
+  <sub>More Tailcove libraries: <a href="https://github.com/tailcove/laravel">Laravel</a> &nbsp;·&nbsp; <a href="https://github.com/tailcove/node">Node.js</a> &nbsp;·&nbsp; <a href="https://github.com/tailcove/browser">Browser</a></sub>
 </p>
