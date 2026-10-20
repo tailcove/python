@@ -11,7 +11,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.9"
 keywords = ["logging", "tailcove", "monolog", "ndjson"]
-authors = [{ name = "Akcybex", email = "developers@akcybex.com" }]
+authors = [{ name = "AKCybex", email = "developers@akcybex.com" }]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",

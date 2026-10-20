@@ -1,8 +1,13 @@
-<h1 align="center">tailcove</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-light.svg">
+  <img alt="tailcove: Tailcove for Python" src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-dark.svg" width="100%">
+</picture>
 
 <p align="center">
-  Send Python logs to <a href="https://tailcove.dev">Tailcove</a> with the standard <code>logging</code> module.<br>
-  One handler, no dependencies, and it never slows down your code.
+  <a href="https://tailcove.dev/docs/sending-logs/python"><img alt="Documentation" src="https://img.shields.io/badge/Documentation-2DD4BF?style=for-the-badge&logoColor=0A0A0A"></a>
+  <a href="https://app.tailcove.dev/register"><img alt="Get started free" src="https://img.shields.io/badge/Get%20started%20free-0A0A0A?style=for-the-badge"></a>
+  <a href="https://github.com/tailcove/python/issues/new/choose"><img alt="Report a bug" src="https://img.shields.io/badge/Report%20a%20bug-0A0A0A?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -12,21 +17,44 @@
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-2DD4BF?labelColor=0A0A0A"></a>
 </p>
 
-<p align="center">
-  <a href="https://tailcove.dev/docs/sending-logs/python">Documentation</a> ·
-  <a href="https://github.com/tailcove/python/issues">Report a bug</a> ·
-  <a href="https://app.tailcove.dev/register">Get started free</a>
-</p>
+<br>
 
----
+<h3 align="center">Send Python logs to Tailcove with the standard logging module.</h3>
 
-## Why use it
+<br>
 
-- **Plain `logging`.** `TailcoveHandler` is a normal `logging.Handler`. Keep the loggers you already have.
-- **Never blocks.** Records are batched and sent from a background thread, so a request or a hot loop never waits on the network.
-- **No dependencies.** Delivery uses `urllib` from the standard library.
-- **Safe.** A failed delivery is caught and never raised into your code.
-- **Structured exceptions.** Log an exception and it arrives as data (class, message, location, trace), so identical errors group together.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🐍 &nbsp;Plain <code>logging</code></h4>
+      <code>TailcoveHandler</code> is a normal <code>logging.Handler</code>. Keep the loggers you have.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧵 &nbsp;Never blocks</h4>
+      Records are batched and sent from a background thread, so nothing waits on the network.
+    </td>
+    <td width="33%" valign="top">
+      <h4>📦 &nbsp;No dependencies</h4>
+      Delivery uses <code>urllib</code> from the standard library.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🛡️ &nbsp;Safe</h4>
+      A failed delivery is caught and never raised into your code.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧩 &nbsp;Structured exceptions</h4>
+      Class, message, location and trace arrive as data, so identical errors group together.
+    </td>
+    <td width="33%" valign="top">
+      <h4>🌐 &nbsp;Django &amp; Flask</h4>
+      Copy-paste setup for both, below.
+    </td>
+  </tr>
+</table>
+
+<br>
 
 ## Install
 
@@ -172,4 +200,10 @@ Network errors and non-2xx responses never raise into your code. `emit()` follow
 
 ## License
 
-[MIT](LICENSE) © Akcybex
+[MIT](LICENSE) © AKCybex
+
+<br>
+
+<p align="center">
+  <sub>Built by <a href="https://akcybex.com">AKCybex</a> &nbsp;·&nbsp; <a href="https://tailcove.dev">tailcove.dev</a></sub>
+</p>
