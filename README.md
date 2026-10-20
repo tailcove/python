@@ -1,8 +1,4 @@
-<a href="https://tailcove.dev/docs/sending-logs/python"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-light.svg">
-  <img alt="tailcove: Tailcove for Python. Version, runtime support, size and license." src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-dark.svg" width="100%">
-</picture></a>
+<a href="https://tailcove.dev/docs/sending-logs/python"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-light.svg"><img alt="tailcove: Tailcove for Python. Version, runtime support, size and license." src="https://raw.githubusercontent.com/tailcove/.github/main/profile/assets/packages/python-dark.svg" width="100%"></picture></a>
 
 <p align="center">
   <a href="https://tailcove.dev/docs/sending-logs/python">Documentation</a> &nbsp;·&nbsp;
