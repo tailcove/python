@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://tailcove.dev/docs/sending-logs/python">Documentation</a> &nbsp;·&nbsp;
-  <a href="https://app.tailcove.dev/register">Get started free</a> &nbsp;·&nbsp;
+  <a href="https://tailcove.dev/register">Get started free</a> &nbsp;·&nbsp;
   <a href="https://pypi.org/project/tailcove/">View on PyPI</a> &nbsp;·&nbsp;
   <a href="https://github.com/tailcove/python/issues/new/choose">Report a bug</a>
 </p>
@@ -25,7 +25,7 @@ Requires Python 3.9 or newer.
 
 ## Quick start
 
-**1. Get a token.** Create a source in your [Tailcove dashboard](https://app.tailcove.dev) and copy its ingest token. It is shown only once, so save it somewhere safe (an environment variable is ideal).
+**1. Get a token.** Create a source in your [Tailcove dashboard](https://tailcove.dev) and copy its ingest token. It is shown only once, so save it somewhere safe (an environment variable is ideal).
 
 **2. Add the handler.**
 
@@ -163,7 +163,7 @@ Network errors and non-2xx responses never raise into your code. `emit()` follow
 
 <p align="center">
   <a href="https://tailcove.dev/docs/sending-logs/python">Documentation</a> &nbsp;·&nbsp;
-  <a href="https://app.tailcove.dev/register">Get started free</a> &nbsp;·&nbsp;
+  <a href="https://tailcove.dev/register">Get started free</a> &nbsp;·&nbsp;
   <a href="https://github.com/tailcove/python/issues/new/choose">Report a bug</a> &nbsp;·&nbsp;
   <a href="LICENSE">MIT License</a>
 </p>
